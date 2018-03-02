@@ -1,5 +1,5 @@
 # contributors
-Richard Krasso - Bellevue Univeristy
+Richard Krasso - Bellevue University
 Heather Peterson - Bellevue University
 # web-330
 Personal Portfolio
