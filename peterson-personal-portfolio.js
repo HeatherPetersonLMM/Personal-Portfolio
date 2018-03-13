@@ -28,6 +28,6 @@ app.get("/gallery", function(request, response) {  // HTTP with get request with
     })
 });
 
-http.createServer(app).listen(8080, function() {  // creates the server to listen on port 8080
-   console.log("Application started on port 8080.");  // logs output message on port 8080
+http.createServer(app).listen(9998, function() {  // creates the server to listen on port 8080
+   console.log("Application started on port 9998.");  // logs output message on port 8080
 });
