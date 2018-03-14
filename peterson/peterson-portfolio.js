@@ -31,18 +31,11 @@ app.get("/about", function(request, response) {
     });
 });
 
-app.get("/contact", function(request, response) {  
-    response.render("contact", {  
-        message: "contact page"  
+app.get("/gallery", function(request, response) {  
+    response.render("gallery", {  
+        message: "gallery page"  
     })
 });
-
-app.get("/products", function(request, response) {  
-   response.render("products", {  
-       message: "products page"  
-   });
-});
-
 
 http.createServer(app).listen(8080, function() {  
    console.log("Application started on port 8080.");  
