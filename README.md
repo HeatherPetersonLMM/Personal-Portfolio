@@ -1,7 +1,7 @@
 
 # Personal Portfolio 
 Heather's Personal Portfolio
-# contributors
+# Contributors
 Professor Krasso - Bellevue University <br>
 Heather Peterson - Bellevue University
 
