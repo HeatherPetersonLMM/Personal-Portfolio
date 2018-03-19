@@ -23,7 +23,7 @@ h4 {
     color: red;
 }
 
-.titleName{
+.titleName {
     color: gray;
     font-size: 50px;
 }
@@ -31,4 +31,8 @@ h4 {
 .heading{
     color: gray;
     font-size: 30px;
+}
+
+.link {
+ color: gray;
 }
