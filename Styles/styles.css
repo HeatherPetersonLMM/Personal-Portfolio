@@ -24,7 +24,7 @@ h4 {
 }
 
 .titleName {
-    color: gray;
+    color: black;
     font-size: 50px;
 }
 
@@ -33,6 +33,18 @@ h4 {
     font-size: 30px;
 }
 
-.link {
- color: gray;
+.link-main {
+ color: white;
+}
+
+.link-main:hover {
+ color: lightgray;
+}
+
+.link-bottom {
+ color: lightgray;
+}
+
+.link-bottom:hover {
+    color: red;
 }
