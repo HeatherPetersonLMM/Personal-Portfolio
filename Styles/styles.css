@@ -34,17 +34,19 @@ h4 {
 }
 
 .link-main {
- color: white;
+    color: white;
+    text-decoration: none;
 }
 
 .link-main:hover {
- color: lightgray;
+    color: black;
 }
 
-.link-bottom {
- color: lightgray;
+.link-middle {
+    color: lightskyblue;
+    text-decoration: none;
 }
-
-.link-bottom:hover {
-    color: red;
+   
+.link-middle:hover {
+    color: blue;
 }
