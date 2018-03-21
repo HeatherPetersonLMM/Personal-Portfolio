@@ -3,6 +3,10 @@ body {
     font-family: 'Share Tech', sans-serif;
 }
 
+p {
+    background-image: url("images/background.png");
+}
+
 .navbar {
     background: firebrick;
     text-align: right;
