@@ -1,10 +1,7 @@
 body {
     text-align: center;
     font-family: 'Share Tech', sans-serif;
-}
-
-p {
-    background-image: url("images/background.png");
+    background-image: url("images/background.JPEG");
 }
 
 .navbar {
