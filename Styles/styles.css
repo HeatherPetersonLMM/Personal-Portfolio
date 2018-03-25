@@ -38,6 +38,8 @@ a.btt {
 .navbar {
     background: firebrick;
     text-align: right;
+    margin: 0;
+    padding: 0;
 }
 
 .navlogo {
