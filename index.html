@@ -17,14 +17,12 @@
     <link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
     <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700'>
     <link rel="stylesheet" href='Styles/styles.css'>
-    <link rel="stylesheet" href='Styles/app.js'>
 
-
-
+    <a href="#" class="btt"> Back to top </a>
   </head>
+
   <body>
   <!-- scroll to top button -->
-
   <!--start main-->
 
     <!--start navbar-->
@@ -46,12 +44,11 @@
 <!--end navbar-->
 
 <!--start intro-->
+<img src="images/background.PNG">
 <section id="main">
-    <div class="bgimage" img src="images/background.PNG">
             <h4>- The Portfolio of an American Web Developer -</h4>
       <div class="titleName">    
             <h2>HEATHER PETERSON</h2>
-      </div>
       </div>
            <p class "p"> A devoted learner in computer science and the development of technical skills.  Uses coherent layout 
             <br>designs in front-end work to portray a clean, eye-catching User Interface experience.  Has a knowledgeable 
@@ -65,6 +62,7 @@
       </div>
     </div>
 </section>
+</body>
     <br>
     <br>
     <br>
@@ -174,18 +172,40 @@
         </p>
     </div>
     <hr>
-  
+    <i class="fab fa-css3-alt"></i>
   <!-- start contact links section--> 
         <ul>
           <li><a href="https://heatherpetersonlmm.github.io/resume/" class="link-middle">RESUME</a></li>
           <li><a href="https://github.com/HeatherPetersonLMM" class="link-middle">GITHUB</a></li>
           <li><a href="mailto:hpeterson.lmm@gmail.com" class="link-middle">EMAIL</a></li>
           <li><a href="https://www.instagram.com/h.lmm412/" class="link-middle">INSTAGRAM</a></li>
-          <li><a href="https://www.facebook.com/heather.peterson.9210" class="link-middle">FACEBOOK</a></li>
+          <li><a href="https://www.facebook.com/heather.peterson.9210" class="link-middle">FACEBOOK</a></li><br>
         </ul>
       </div>
     </div>
 <!--end about section-->
 </section>
 </body>
+
+<footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <script>
+                var scrolled = 400;
+                $(window).scroll(function() {
+                  if ( $(window).scrollTop() > scrolled ) {
+                    $('a.btt').fadeIn('slow');
+                  } else {
+                    $('a.btt').fadeOut('slow');
+                  }
+                });
+                </script>
+                
+                <script>
+                $('a.btt').click(function() {
+                  $('html, body').animate({ scrollTop: 0 }, 700);
+                  return false;
+                });
+                </script>
+</footer>
 </html>
