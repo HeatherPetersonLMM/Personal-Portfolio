@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.navbar {
+    background: firebrick;
+    text-align: right;
+}
+
+a.btt {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    bottom: 30px;
+    background: #ebebeb;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px rgba(23, 25, 25, 0.2);
+  }
+
+  a.btt .svg-inline--fa {
+    color: #191717;
+    position: relative;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  a.btt:hover{
+    transform: translatey(-10%);
+  }
+
+.navlogo {
+    padding: 10px;
+    text-align: left;
+}
+
+.titleName {
+    color: black;
+    font-size: 50px;
+}
+
+.heading {
+    color: gray;
+    font-size: 30px;
+}
+
+.sub-head {
+    color: red;
+    font-size: 10px;
+}
+
+.link-main {
+ color: white;
+ text-decoration: none;
+}
+
+.link-main:hover {
+ color: white;
+ text-decoration: underline;
+}
+
+.link-bottom {
+    color: lightskyblue;
+    text-decoration: none;
+   }
+   
+.link-bottom:hover {
+color: blue;
+   }
+
+li {
+display: inline;
+margin-right: 10px;
+
+}
