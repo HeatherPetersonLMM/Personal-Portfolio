@@ -78,10 +78,16 @@ h4 {
 }
 
 .link-middle {
-    color: lightskyblue;
+    color: white;
     text-decoration: none;
 }
    
 .link-middle:hover {
-    color: blue;
+    color: white;
+    text-decoration: underline;
 }
+
+.endNav{
+    background: firebrick;
+    text-align: center;
+    }
