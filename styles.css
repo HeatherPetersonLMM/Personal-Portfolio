@@ -78,11 +78,21 @@ h4 {
 }
 
 .link-middle {
-    color: white;
+    color: rgb(28, 74, 223);
     text-decoration: none;
 }
    
 .link-middle:hover {
+    color: rgb(28, 74, 223);
+    text-decoration: underline;
+}
+
+.link-bottom {
+    color: white;
+    text-decoration: none;
+}
+
+.link-bottom:hover {
     color: white;
     text-decoration: underline;
 }
