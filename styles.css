@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-family: 'Share Tech', sans-serif;
+    font-family: 'PT Mono', monospace;
 }
 
 a.btt {
@@ -60,11 +60,13 @@ h2 {
 .titleName {
     color: black;
     font-size: 50px;
+    
 }
 
 .heading{
     color: gray;
     font-size: 30px;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 .link-main {
